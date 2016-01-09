@@ -3,8 +3,8 @@ SUBDIRS = include lib main data po tools
 ACLOCAL_AMFLAGS = -I m4
 
 installdir = $(pkglibdir)/python
-install_PYTHON = upgrade.py \
-	mytest.py skin.py \
+install_PYTHON = mytest.py \  
+        skin.py \
 	e2reactor.py
 
 pkgconfigdir = $(libdir)/pkgconfig
